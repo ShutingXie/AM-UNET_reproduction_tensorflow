@@ -24,11 +24,23 @@ Reference of the original paper: DOI: 10.1007/s11042-021-11568-7
 ## Environments and Requirements
 
 This test implementation is designed to run on **CPU**.
+**Python**: Version 3.10
 
 To set up the environment:
 ```bash
 git clone https://github.com/ShutingXie/AM-UNET_reproduction_tensorflow.git
 ```
+
+Create a virtual environment (You can use other way to creat a virtual environment):
+```bash
+python -m venv check
+```
+
+Install all dependent packages
+```bash
+pip install -r requirements.txt
+```
+
 
 ## Dataset
 Put your MRI data and labels in the **input_data/** folder
