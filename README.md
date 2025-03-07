@@ -58,6 +58,11 @@ cd use_h5
 python main.py
 ```
 
+## Evaluation the prediction results
+```bash
+python compute_agreement.py
+```
+
 
 
 
