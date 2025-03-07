@@ -33,7 +33,7 @@ git clone https://github.com/ShutingXie/AM-UNET_reproduction_tensorflow.git
 
 Create a virtual environment (You can use other way to creat a virtual environment):
 ```bash
-python -m venv check
+python -m venv myenv
 ```
 
 Install all dependent packages
