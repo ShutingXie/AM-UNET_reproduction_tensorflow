@@ -25,7 +25,7 @@ Reference of the original paper: DOI: 10.1007/s11042-021-11568-7
 
 This test implementation is designed to run on **CPU**.
 
-**Python**: Version 3.10
+**Python**: Version 3.12
 
 To set up the environment:
 ```bash
