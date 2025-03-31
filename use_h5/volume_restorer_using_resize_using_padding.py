@@ -59,7 +59,7 @@ class VolumeRestorer:
         slice_org = self.upsample_to_original_size(slice_256, org_size)
         return slice_org
 
-    # I first thought this function is useless since it will conver the non-CL areas when overlapping 3D reconstruction over the original images.
+    # I first thought this function is useless since it will cover the non-CL areas when overlapping 3D reconstruction over the original images.
     # Why necessary: This function can make sure the third dimension is also the same as original images.
     def restore_invalid_slices(self, subject_predictions, total_slices, valid_indices):
         """
